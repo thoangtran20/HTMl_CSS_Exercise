@@ -1,0 +1,87 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+	padding: 40px 20px;
+	margin: 40px 200px;
+	border: 2px solid #f1f6f9;
+	background-color: #ecf2ff;
+}
+.icon {
+	width: 60px;
+	height: 60px;
+	margin: 20px auto;
+	border-radius: 50%;
+	border: 3px solid #55bbc8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon i {
+	padding: 20px 10px;
+	font-size: 24px;
+	color: #55bbc8;
+}
+h2 {
+	margin: 30px;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+h2 span {
+	color: #47b5ff;
+	font-weight: 700;
+}
+
+p {
+	color: #6e6e6e;
+	font-size: 20px;
+	margin: 30px;
+	font-weight: 400;
+}
+
+input {
+	padding: 10px 20px;
+	background-color: #fff;
+	border: none;
+	font-weight: 700;
+	width: 350px;
+	height: 60px;
+	text-transform: capitalize;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+input::placeholder {
+	opacity: 0.5;
+}
+
+.btn {
+	margin: 20px;
+}
+
+.btn button {
+	padding: 10px 20px;
+	margin-bottom: 50px;
+	background-color: #55bbc8;
+	border: none;
+	width: 180px;
+	height: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #f1f6f5;
+	font-size: 15px;
+	border-radius: 5px;
+}
