@@ -1,0 +1,75 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Sora:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Sora', sans-serif;
+}
+
+.container {
+	padding: 5px 10px;
+	margin: 40px 160px;
+  display: flex;
+  justify-content: space-between;
+	border: 2px solid #f1f6f9;
+	background-color: #f0eeed;
+}
+
+.left {
+	border: 2px solid;
+	height: auto;
+	width: 600px;
+	background-color: #d5d5d5;
+	border: none;
+	margin: 10px;
+	padding: 110px 0;
+}
+
+.left p {
+	line-height: 150px;
+	color: #f7f7f7;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.right {
+	padding: 10px 50px;
+	height: auto;
+	width: calc(100 - 600px);
+	flex-direction: column;
+}
+
+.right h2 {
+	font-size: 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.right p {
+	font-size: 16px;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+.right button {
+	width: 120px;
+	height: 40px;
+	padding: 10px 20px;
+	font-size: 18px;
+	margin-top: 55px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}

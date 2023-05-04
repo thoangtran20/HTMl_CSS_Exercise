@@ -1,0 +1,82 @@
+/** @format */
+
+/* .header {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600&family=Sora:wght@100;200;300;400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	padding: 15px 20px;
+	margin: 40px 220px;
+	border: 2px solid #f1f6f9;
+	background-color: #f3f4ed;
+	display: flex;
+	flex-direction: column;
+}
+
+.header h3 {
+	position: relative;
+	text-align: center;
+	font-size: 26px;
+	margin: 10px 20px 0 20px;
+	padding: 0 20px;
+}
+
+.header h3:before,
+h3:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	border-top: 1px ridge #cdc9c3;
+	width: calc(50% - 262px);
+	height: 0;
+}
+
+.header h3:before {
+	left: -10px;
+}
+
+.header h3:after {
+	right: -10px;
+}
+
+.content {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: space-between;
+}
+
+.item {
+	border: 2px solid;
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 820px;
+	background-color: #82aae3;
+	border: none;
+	margin: 10px;
+}
+
+.item p {
+	line-height: 150px;
+	color: #f7f7f7;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
