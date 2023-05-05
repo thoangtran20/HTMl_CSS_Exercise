@@ -1,0 +1,105 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600&family=Sora:wght@100;200;300;400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 20px;
+	margin: 40px 180px;
+	height: auto;
+	border: 2px solid #f1f6f9;
+	background-color: #f7f5eb;
+	display: flex;
+	flex-direction: column;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 30x;
+	font-family: 'Sora', sans-serif;
+	position: relative;
+	font-weight: 700;
+}
+
+.title h1::after {
+	content: '';
+	position: absolute;
+	top: 130%;
+	width: 35%;
+	height: 3px;
+	background-color: #159895;
+	bottom: -5px;
+	left: 30%;
+}
+
+.menu {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+  margin-bottom: 30px;
+	margin-top: 10px;
+}
+.menu ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.menu li {
+	color: #73777b;
+	display: inline-block;
+	font-weight: 700;
+	margin-right: 20px; /* khoảng cách giữa các item */
+}
+
+.content {
+	background-color: #ececec;
+  padding: 5px;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+
+.item {
+	border: 2px solid;
+	height: auto;
+	/* margin-left: 10px;
+	margin-right: 10px; */
+	width: 320px;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	background-color: #38e54d;
+	border: none;
+	margin: 10px;
+}
+
+.item p {
+	line-height: 150px;
+	color: #f7f7f7;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: capitalize;
+}

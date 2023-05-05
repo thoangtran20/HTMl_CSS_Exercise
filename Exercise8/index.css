@@ -1,0 +1,47 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300;400;500;600&family=Sora:wght@100;200;300;400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+	padding: 15px 20px;
+	position: relative;
+	margin: 60px 200px;
+	height: auto;
+	background-size: cover;
+	background-image: url('../img/1321369.jpg');
+	z-index: 1;
+}
+
+.content {
+	padding: 10px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+}
+
+.item i,
+span {
+	color: #eff5f5;
+	margin-top: 15px;
+	font-size: 40px;
+  font-weight: 700;
+}
+
+.item p {
+	color: #eaeaea;
+  margin-top: 15px;
+
+}
